@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Folder Name="Blank Collection"
+        Group="Explorer"
+        Searchable="True"
+        Type="Earth"
+        Thumbnail="http://--your path--/T_Earth.jpg">
+  <Folder Name="Our Tours"
+          Group="Tour"
+          Thumbnail="http://--your path--/T_Tours.jpg">
+    <!-- Tour entries go in here -->
+  </Folder>
+
+  <Folder Name="Our Studies"
+          Group="Explorer"
+          Searchable="True"
+          Type="Sky"
+          Thumbnail="http://--your path--/T_Star.jpg">
+    <!-- Studies go in here -->
+  </Folder>
+
+  <Folder Name="Context"
+          Group="Search"
+          Searchable="True"
+          Browseable="False"
+          Type="Sky">
+    <!-- Context only entries go in here -->
+  </Folder>
+
+  <Folder Name="Our Links"
+          Group="Explorer"
+          Searchable="True"
+          Type="Sky"
+          Thumbnail="http://--your path--/T_Red.jpg">
+    <!-- More viewable link entries go in here -->
+  </Folder>
+
+  <Folder Name="Our Downloads"
+          Thumbnail="http://--your path--/T_Saucer.jpg">
+    <!-- More pdf/catalog entries go in here -->
+  </Folder>
+
+  <!-- Some top level place entries go in here -->
+</Folder>

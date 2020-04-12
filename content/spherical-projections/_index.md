@@ -1,5 +1,6 @@
 +++
 title = "Spherical Projections in WWT"
+weight = 100
 sort_by = "weight"
 insert_anchor_links = "right"
 +++

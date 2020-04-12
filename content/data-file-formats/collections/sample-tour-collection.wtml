@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Folder Name="Sample Tours" Group="Tour">
+    <Tour Title="Sample One"
+          ID="0C8F6692-2856-44c7-B39D-36C25AF2EF28"
+          Description="The inner planets"
+          Author="a.n. author"
+          OrganizationName="Microsoft Research"
+          AverageRating="1"
+          AuthorImageUrl="http://--your path--/an_author.jpg"
+          ThumbnailUrl="http://--your path--/T1.jpg"
+          TourUrl="http://--your path--/SampleTourOne.wtt"
+          LengthInSecs="32"  />
+    <Tour Title="Sample Two"
+          ID="EDAF147C-D102-476f-AEEF-499E11B1A3D3"
+          Description="The outer planets"
+          Author="a.n. author"
+          OrganizationName="Microsoft Research"
+          AverageRating="2"
+          AuthorImageUrl="http://--your path--/an_author.jpg"
+          ThumbnailUrl="http://--your path--/T2.jpg"
+          TourUrl="http://--your path--/SampleTourTwo.wtt"
+          LengthInSecs="116" />
+</Folder>

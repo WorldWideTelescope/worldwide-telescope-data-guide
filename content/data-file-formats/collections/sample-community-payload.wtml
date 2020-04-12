@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<Folder
+  Name="Our Community"
+  Group="Explorer"
+  Searchable="True"
+  Type="Earth"
+  Thumbnail="http://example.com/thumbs/T_Earth.jpg">
+
+  <Folder
+    Name="Our Tours"
+    Group="Tour"
+    Thumbnail="http://example.com/thumbs/T_Tours.jpg">
+
+    <Tour
+      Title="A Wild Ride"
+      ID="265500FF-D97E-4d07-9447-D78B551ECCC1"
+      Description="A race through our favorite galaxies."
+      Author="A.N. Author"
+      TourUrl="http://example.com/tours/WildRide.wtt"
+      AuthorImageUrl="http://example.com/Author.jpg"
+      ThumbnailUrl="http://example.com/thumbs/T_Nebula.jpg" />
+
+    <Tour
+      Title="Dust Clouds"
+      ID="81A13613-0FCA-4f70-85C2-1DE3CD7C0500"
+      Description="A tour of the visible dust clouds -- the birthplace of stars."
+      Author="A.N. Author"
+      AverageRating="4"
+      LengthInSecs="30"
+      OrganizationUrl="http://www.microsoft.com"
+      OrganizationName="Microsoft Corp."
+      TourUrl="http://example.com/tours/DustClouds.wtt"
+      AuthorImageUrl="http://example.com/Author.jpg"
+      ThumbnailUrl="http://example.com/thumbs/T_Comet.jpg" />
+
+    <!-- More tour entries go in here -->
+  </Folder>
+
+  <Folder
+    Name="Our Studies"
+    Group="Explorer"
+    Searchable="True"
+    Type="Sky"
+    Thumbnail="http://example.com/thumbs/T_Star.jpg">
+
+    <Place
+      Name="Galaxy NGC 4579"
+      DataSetType="Sky"
+      RA="3.18858333333333"
+      Dec="1.31471944444444"
+      ZoomLevel="0.2"
+      Opacity="100"
+      Constellation="CET"
+      Thumbnail="http://example.com/thumbs/T_Tail.jpg">
+
+      <ForegroundImageSet>
+        <ImageSet
+          DataSetType="Sky"
+          BandPass="Visible"
+          TileLevels="3"
+          Url="http://research.microsoft.com/~dinos/wwtexp/530919080/{1}/{3}/{3}_{2}.png"
+          CenterX="47.828862896748753"
+          CenterY="1.3146065774006597"
+          Rotation="-5.0799999999999867"
+          BaseDegreesPerTile="0.02842076047738"
+          FileType=".png"
+          WidthFactor="2"
+          Projection="Tangent">
+          <Credits>NASA, ESA, and M. Livio (STScI)</Credits>
+          <CreditsUrl>http://hubblesite.org/newscenter/archive/releases/2008/37/</CreditsUrl>
+        </ImageSet>
+      </ForegroundImageSet>
+    </Place>
+
+    <Place
+      Name="Planet Orbiting Fomalhaut"
+      DataSetType="Sky"
+      RA="22.9608472222222"
+      Dec="-29.6222361111111"
+      ZoomLevel="0.123333333333333"
+      Opacity="100"
+      Constellation="PSA"
+      Classification="Unfiltered"
+      Magnitude="0"
+      Distance="0"
+      Rotation="0"
+      Angle="0"
+      AngularSize="1"
+      Thumbnail="http://example.com/thumbs/T_Fomalhaut.jpg">
+
+      <ForegroundImageSet>
+        <ImageSet
+          DataSetType="Sky"
+          BandPass="Visible"
+          TileLevels="4"
+          Url="http://research.microsoft.com/~dinos/wwtexp/934203617/{1}/{3}/{3}_{2}.png"
+          CenterX="344.412708333333"
+          CenterY="-29.6222361111111"
+          Rotation="0"
+          BaseDegreesPerTile="0.0220985710119568"
+          BaseTileLevel="0"
+          FileType=".png"
+          WidthFactor="2"
+          Sparse="True"
+          QuadTreeMap=""
+          Projection="Tangent"
+          Name=""
+          BottomsUp="False"
+          OffsetX="0"
+          OffsetY="0">
+          <Credits>NASA, ESA, P. Kalas (UC Berkeley) et. al.</Credits>
+          <CreditsUrl>http://hubblesite.org/newscenter/archive/releases/2008/39</CreditsUrl>
+        </ImageSet>
+      </ForegroundImageSet>
+    </Place>
+
+    <!-- More studies go in here -->
+  </Folder>
+
+  <Folder
+    Name="Context"
+    Group="Search"
+    Searchable="True"
+    Browseable="True"
+    Type="Sky">
+
+    <Place
+      Name="Article on Dust Clouds"
+      DataSetType="Sky"
+      Url="http://example.com/a-published-article/"
+      RA="19.099"
+      Dec="24.444"
+      Constellation="SGR"
+      Classification="Star"
+      Magnitude="0"
+      ZoomLevel="0"
+      Rotation="0"
+      Angle="0"
+      Opacity="100"
+      AngularSize="-1" />
+
+    <!-- More unbrowsable place entries go in here -->
+  </Folder>
+
+  <Folder
+    Name="Our Links"
+    Group="Explorer"
+    Searchable="True"
+    Type="Sky"
+    Thumbnail="http://example.com/thumbs/T_Red.jpg">
+
+    <Place
+      Name="An Astronomy Magazine"
+      DataSetType="Sky"
+      Url="http://skyandtelescope.com/"
+      Thumbnail="http://example.com/thumbs/T_Sun.jpg" />
+
+    <Place
+      Name="An Astronomy Club"
+      Url="http://aas.org/"
+      DataSetType="Sky"
+      Thumbnail="http://example.com/thumbs/T_Blue.jpg" />
+
+    <!-- More viewable place link entries go in here -->
+  </Folder>
+
+  <Folder
+    Name="Our Downloads"
+    Thumbnail="http://example.com/thumbs/T_Saucer.jpg">
+
+    <Place
+      Name="PDF Catalog 1"
+      Url="http://example.com/files/A_catalog.pdf"
+      Thumbnail="http://example.com/thumbs/T_Saturn.jpg" />
+
+    <Place
+      Name="PDF Catalog 2"
+      Url="http://example.com/files/Another_catalog.pdf"
+      Thumbnail="http://example.com/thumbs/T_Ice.jpg" />
+
+    <!-- More PDF/catalog/etc entries go in here -->
+  </Folder>
+
+  <Place
+    Name="Our Website"
+    Url="http://example.com/"
+    Thumbnail="http://example.com/thumbs/T_BlackHole.jpg" />
+</Folder>

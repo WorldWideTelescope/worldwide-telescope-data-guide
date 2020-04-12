@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Folder Name="GridPanorama">
+  <ImageSet Generic="False"
+            DataSetType="Panorama"
+            BandPass="Visible"
+            Name="SamplePanorama"
+            Url="http://--your path--\GridPanorama\{1}\{3}\{3}_{2}.png"
+            BaseTileLevel="0"
+            TileLevels="3"
+            BaseDegreesPerTile="180"
+            FileType=".png"
+            BottomsUp="False"
+            Projection="Toast"
+            QuadTreeMap=""
+            CenterX="0"
+            CenterY="0"
+            OffsetX="0"
+            OffsetY="0"
+            Rotation="0"
+            Sparse="False"
+            ElevationModel="False">
+    <Credits>A.N. Author</Credits>
+    <CreditsUrl>--your credits url path--</CreditsUrl>
+    <ThumbnailUrl>http://--your path--/gridpanorama.jpg</ThumbnailUrl>
+    <Description />
+  </ImageSet>
+</Folder>
