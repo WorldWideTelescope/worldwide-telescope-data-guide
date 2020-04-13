@@ -6,3 +6,4 @@ highlight_code = true
 
 [extra]
 github_base = "//github.com/WorldWideTelescope/worldwide-telescope-data-guide"
+google_analytics_id = "UA-107473046-3"
