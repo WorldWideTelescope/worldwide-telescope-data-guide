@@ -108,10 +108,10 @@ Apache for the first time by using the configuration file:
 4. Ensure all the pre-requisites have been installed or configured.
 5. Enter `y` when prompted.
 6. Upon successful installation, visit
-   [http://localhost/SharingService/TileServiceSample.aspx](http://localhost/SharingService/TileServiceSample.aspx)
-   to view the Tile Service Sample, and
-   [http://localhost/SharingService/CommunityServiceSample.aspx](http://localhost/SharingService/CommunityServiceSample.aspx)
-   to view the Community Service Sample.
+   `http://localhost/SharingService/TileServiceSample.aspx` to view the Tile
+   Service Sample, and
+   `http://localhost/SharingService/CommunityServiceSample.aspx` to view the
+   Community Service Sample.
 
 The Tile Service will serve up image and DEM tiles created using the Tile
 Pyramid SDK. By selecting one of the thumbnail images a tile pyramid can be
@@ -179,13 +179,12 @@ With the following settings:
 ## Running the BlueMarbleApp.exe sample with multiple images
 
 1. Download the Multipart Equirectangular images (A1, A1, A2, B1, B2, C1, C2,
-   D1 and D2) from:
-   [http://visibleearth.nasa.gov/view-detail.php?id=7100](http://visibleearth.nasa.gov/view-detail.php?id=7100)
-   and save it to a folder. (note: these images are huge and would require a
-   lot of processing power to run them. If you do not have a high end server
-   machine at your disposal, try splitting the image downloaded in the
-   previous step into to smaller parts and run this sample using them). Save
-   it to `C:\SDKInputData\`.
+   D1 and D2) from [NASA](https://visibleearth.nasa.gov/grid) and save them to
+   a folder. (Note: these images are huge and would require a lot of
+   processing power to run them. If you do not have a high end server machine
+   at your disposal, try splitting the image downloaded in the previous step
+   into to smaller parts and run this sample using them). Save it to
+   `C:\SDKInputData\`.
 2. Now build an XML file providing the location of each part and their
    corresponding bounding co-ordinates (see
    [sample here](#sample-xml-file-for-the-multi-part-equirectangular-image)).
@@ -241,8 +240,8 @@ Where:
 
 ## Running the WorldDataSet.exe sample
 
-1. Download the ETOP01 xyz data set from:
-   [http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid-registered/xyz/ETOPO1-Bed-g-int.xyz.gz](http://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid-registered/xyz/ETOPO1-Bed-g-int.xyz.gz)
+1. Download the ETOP01 xyz data set from
+   [NOAA](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/xyz/)
    (1GB file)
 2. Use a standard uncompressing utility to extract the XYZ file.
 3. Save it to a local folder. Save it to `C:\SDKInputData\`.

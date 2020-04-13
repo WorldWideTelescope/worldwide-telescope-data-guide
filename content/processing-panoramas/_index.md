@@ -60,12 +60,12 @@ Many cameras can obtain panoramic images directly. Examples are Ricoh Theta
 ([https://theta360.com/en/](https://theta360.com/en/)) and Kodak Pixpro
 ([http://kodakpixpro.com/Americas/cameras/actioncamera/sp360.php](http://kodakpixpro.com/Americas/cameras/actioncamera/sp360.php))
 cameras. Even smart phones can capture panoramic images with software such as
-Microsoft's Photosynth ([https://photosynth.net/](https://photosynth.net/)) of
-the built-in camera app on iOS. This could be useful in capturing panoramic
-views of observatories or observational locations. Of course another important
-type of data are panoramic views of surfaces of other bodies of the Solar
-System. However the panoramic image was obtained, this image is the input to
-the next step, which is to use the SphereToaster tool.
+Microsoft's [Photosynth](https://en.wikipedia.org/wiki/Photosynth). This could
+be useful in capturing panoramic views of observatories or observational
+locations. Of course another important type of data are panoramic views of
+surfaces of other bodies of the Solar System. However the panoramic image was
+obtained, this image is the input to the next step, which is to use the
+SphereToaster tool.
 
 1. Open the panorama and make sure that it is of the correct size. The input
    panorama file should be in equi-rectangular (aka cylindrical equidistant)
@@ -160,5 +160,5 @@ the next step, which is to use the SphereToaster tool.
     file.
 
 You can find additional information on how to use SphereToaster tool in the
-SDK (as well as the other tools) here:
-[http://www.worldwidetelescope.org/docs/WorldWideTelescopeDataToolsGuide.html#WWTSphereToaster](http://wwtstaging.azurewebsites.net/Developers/DataToolsGuide#WWTSphereToaster)
+SDK (as well as the other tools) in the
+[Sphere Toaster section](@/windows-data-tools/sphere-toaster/index.md).

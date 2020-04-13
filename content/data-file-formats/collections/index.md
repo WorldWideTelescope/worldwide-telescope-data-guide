@@ -437,7 +437,7 @@ You can set up your own community using your own servers and without any
 contact with Microsoft. However, you may prefer to have your community listed
 it on the WorldWide Telescope Community Directory (a subset of which is shown
 on the
-[WWT Support page](http://www.worldwidetelescope.org/help/SupportHelp.aspx)).
+[WWT Support page](http://www.worldwidetelescope.org/Support/IssuesAndBugs).
 To do this, send an email to `wwt@aas.org`, requesting that your community be
 listed. To be considered for inclusion in the community directory, community
 sites must maintain standards in terms of quality, scalability, and content
