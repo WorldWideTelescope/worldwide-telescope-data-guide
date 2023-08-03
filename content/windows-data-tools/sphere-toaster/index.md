@@ -53,7 +53,7 @@ increased if the tool is run on a 64-bit operating system.
    The maximum levels of a pyramid should not be increased, but can be
    decreased during testing - to improve performance.
 
-   Refer to the note on [Plate Files](#plate-files).
+   Refer to the note on [Plate Files](../study-chopper/index.md#plate-files).
 
    Selecting **Generate Pyramid + WTML** will create the image pyramid, WTML
    files, and thumbnail.
