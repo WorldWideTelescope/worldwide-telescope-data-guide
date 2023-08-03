@@ -8,13 +8,13 @@ how to use the APIs. Each of these samples deals with a different type of
 dataset and produces a single collection that can be viewed in Worldwide
 Telescope.
 
-1. [BlueMarbleApp](#running-the-bluemarbleappexe-sample-with-a-single-image):
+1. [BlueMarbleApp](#running-the-bluemarbleapp-exe-sample-with-a-single-image):
    This sample demonstrates how a single image in Equirectangular projection
    or
-   [set of images in Equirectangular projection](#running-the-bluemarbleappexe-sample-with-multiple-images)
+   [set of images in Equirectangular projection](#running-the-bluemarbleapp-exe-sample-with-multiple-images)
    can be transformed to Toast or Mercator projection image pyramids that can
    be visualized in WorldWide Telescope.
-2. [SpecificRegionDataSet](#running-the-specificregiondatasetexe-sample): This
+2. [SpecificRegionDataSet](#running-the-specificregiondataset-exe-sample): This
    sample demonstrates how an Equirectangular dataset in XYZ format, for a
    specific region of the world can be transformed to Toast or Mercator
    projection image pyramids that can be visualized in WorldWide Telescope.
@@ -25,7 +25,7 @@ Telescope.
    [Sharing Service](#to-setup-the-sharing-service) application to be set up.
    The data needs to be comma separated containing longitude, latitude and
    depth values.
-3. [WorldDataSet](#running-the-worlddatasetexe-sample): This sample
+3. [WorldDataSet](#running-the-worlddataset-exe-sample): This sample
    demonstrates how a data set in XYZ format, for the entire world can be
    transformed to Toast or Mercator projection image pyramids that can be
    visualized in WorldWide Telescope. The data needs to be comma separated

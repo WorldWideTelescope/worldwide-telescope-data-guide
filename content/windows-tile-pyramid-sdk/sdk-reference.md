@@ -18,9 +18,9 @@ all of them. They are encapsulated in the `Sdk.Core` project.
 | DemPlateFileGenerator | Implements [IDemPlateFileGenerator](#idemplatefilegenerator-interface), to produce a single file containing all the DEM data tiles. |
 | DemTileSerializer | Implements [IDemTileSerializer](#idemtileserializer-interface) to save and load DEM tiles on the file system. |
 | Enums | Defines the global enumerations. |
-| EquirectangularGridMap | Implements [IProjectionGridMap](#IProjectionGridMap-interface), using equirectangular projection. |
+| EquirectangularGridMap | Implements [IProjectionGridMap](#iprojectiongridmap-interface), using equirectangular projection. |
 | Helper| Defines a few utility methods related to unit conversions. |
-| ImageColorMap | Implements [IColorMap](#icolormap-interface), and references [IProjectionGridMap](#IProjectionGridMap-interface). |
+| ImageColorMap | Implements [IColorMap](#icolormap-interface), and references [IProjectionGridMap](#iprojectiongridmap-interface). |
 | ImageGrid | Implements [IGrid](#igrid-interface), providing a two dimensional array of image data. |
 | ImageTileSerializer| Implements [IImageTileSerializer](#iimagetileserializer-interface) to save and load image tiles on file system. |
 | MercatorDemTileCreator| Implements [ITileCreator](#itilecreator-interface) to create Mercator DEM tiles. |
@@ -69,7 +69,7 @@ following methods. It does not inherit from another interface.
 
 | Method | Description |
 | :-- | :-- |
-| [GetColor](#icolormapgetcolor)| Retrieves the color corresponding to a longitude and latitude. |
+| [GetColor](#icolormap-getcolor)| Retrieves the color corresponding to a longitude and latitude. |
 
 ### Implemented in Classes
 
@@ -113,7 +113,7 @@ interface.
 
 | Method | Description
 | :-- | :-- |
-| [CreateFromDemTile](#IDemPlateFileGeneratorCreateFromDemTileSerializer)| Used to create a plate file from a DEM tile pyramid. |
+| [CreateFromDemTile](#idemplatefilegenerator-createfromdemtile)| Used to create a plate file from a DEM tile pyramid. |
 
 | Property | Type | Get/Set | Description
 | :-- | :-- | :-- | :-- |
@@ -122,7 +122,7 @@ interface.
 ### Implemented in Classes
 
 * [DemPlateFileGenerator](#core-classes)
-* [MultipleDemPlateFileGenerator](#MultipleDemPlateFileGenerator)
+* `MultipleDemPlateFileGenerator`
 
 ### IDemPlateFileGenerator.CreateFromDemTile
 
@@ -138,7 +138,7 @@ void CreateFromDemTile(
 
 #### Parameters
 
-- `serializer` — Specifies the [IDemTileSerializer](#IDemTileSerializer-interface) object.
+- `serializer` — Specifies the [IDemTileSerializer](#idemtileserializer-interface) object.
 
 #### Return Values
 
@@ -159,8 +159,8 @@ from another interface.
 
 | Method | Description
 | :-- | :-- |
-| [Deserialize](#IDemTileSerializerDeserialize) | Deserializes a binary object from the file system. |
-| [Serialize](#IDemTileSerializerSerialize) | Serializes the binary file to the file system. |
+| [Deserialize](#idemtileserializer-deserialize) | Deserializes a binary object from the file system. |
+| [Serialize](#idemtileserializer-serialize) | Serializes the binary file to the file system. |
 
 ### Implemented in Class
 
@@ -193,7 +193,7 @@ The method returns an array of `short` values, containing the binary data.
 #### Remarks
 
 The size of a DEM tile is fixed depending on the projection, refer to the
-remarks for [Serialize](#IDemTileSerializerSerialize).
+remarks for [Serialize](#idemtileserializer-serialize).
 
 ### IDemTileSerializer.Serialize
 
@@ -239,7 +239,7 @@ the following methods. It does not inherit from another interface.
 
 | Method | Description
 | :-- | :-- |
-| [GetElevation](#IElevationMapGetElevation)| Retrieves the elevation corresponding to the longitude and latitude. |
+| [GetElevation](#ielevationmap-getelevation)| Retrieves the elevation corresponding to the longitude and latitude. |
 
 ### Implemented in Class
 
@@ -283,10 +283,10 @@ interface.
 
 | Method | Description
 | :-- | :-- |
-| [GetValue](#IGridGetValue)| Retrieves the value contained at the specified coordinate. |
-| [GetValueAt](#IGridGetValueAt)| Retrieves the value contained at the specified pixel location. |
-| [GetXIndex](#IGridGetXIndex)| Retrieves the X pixel index for the given coordinate. |
-| [GetYIndex](#IGridGetYIndex)| Retrieves the Y pixel index for the given coordinate. |
+| [GetValue](#igrid-getvalue)| Retrieves the value contained at the specified coordinate. |
+| [GetValueAt](#igrid-getvalueat)| Retrieves the value contained at the specified pixel location. |
+| [GetXIndex](#igrid-getxindex)| Retrieves the X pixel index for the given coordinate. |
+| [GetYIndex](#igrid-getyindex)| Retrieves the Y pixel index for the given coordinate. |
 
 | Property | Type | Get/Set | Description
 | :-- | :-- | :-- | :-- |
@@ -414,8 +414,8 @@ The `IImageTileSerializer` interface is used to serialize and deserialize
 
 | Method | Description |
 | :-- | :-- |
-| [Deserialize](#IImageTileSerializerDeserialize) | Deserializes an image from the file system. |
-| [Serialize](#IImageTileSerializerSerialize) | Serializes the image to the file system. |
+| [Deserialize](#iimagetileserializer-deserialize) | Deserializes an image from the file system. |
+| [Serialize](#iimagetileserializer-serialize) | Serializes the image to the file system. |
 
 ### Implemented in Class
 
@@ -494,7 +494,7 @@ interface.
 
 | Method | Description |
 | :-- | :-- |
-| [CreateFromImageTile](#IPlateFileGeneratorCreateFromImageTile) | Used to create a plate file from an image tile pyramid. |
+| [CreateFromImageTile](#iplatefilegenerator-createfromimagetile) | Used to create a plate file from an image tile pyramid. |
 
 #### Properties
 
@@ -523,7 +523,7 @@ void CreateFromImageTile(
 #### Parameters
 
 - `serializer` — Specifies the
-  [IImageTileSerializer](#IImageTileSerializer-interface) object.
+  [IImageTileSerializer](#iimagetileserializer-interface) object.
 
 #### Return Values
 
@@ -544,10 +544,10 @@ projection. It does not inherit from another interface.
 
 | Method | Description |
 | :-- | :-- |
-| [GetValue](#IProjectionGridMapGetValue) | Retrieves the value contained at the specified coordinate. |
-| [GetXIndex](#IProjectionGridMapGetXIndex) | Retrieves the X pixel index for the given coordinate. |
-| [GetYIndex](#IProjectionGridMapGetYIndex) | Retrieves the Y pixel index for the given coordinate. |
-| [IsInRange](#IProjectionGridMapIsInRange) | Retrieves a Boolean indicating whether a given coordinate falls within the scope of the map. |
+| [GetValue](#iprojectiongridmap-getvalue) | Retrieves the value contained at the specified coordinate. |
+| [GetXIndex](#iprojectiongridmap-getxindex) | Retrieves the X pixel index for the given coordinate. |
+| [GetYIndex](#iprojectiongridmap-getyindex) | Retrieves the Y pixel index for the given coordinate. |
+| [IsInRange](#iprojectiongridmap-isinrange) | Retrieves a Boolean indicating whether a given coordinate falls within the scope of the map. |
 
 #### Properties
 
@@ -674,8 +674,8 @@ the following methods. It does not inherit from another interface.
 
 | Method | Description |
 | :-- | :-- |
-| [Create](#ITileCreatorCreate) | Creates tiles of the pyramid at the specified level. |
-| [CreateParent](#ITileCreatorCreateParent) | Create tiles of the pyramid at the parent of the specified level. |
+| [Create](#itilecreator-create) | Creates tiles of the pyramid at the specified level. |
+| [CreateParent](#itilecreator-createparent) | Create tiles of the pyramid at the parent of the specified level. |
 
 #### Properties
 

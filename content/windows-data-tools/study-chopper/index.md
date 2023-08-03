@@ -16,7 +16,7 @@ and pasted into a larger document such as a community payload file, or perhaps
 a collection of similar studies.
 
 The tile pyramid structure, and WTML files, are explained in detail in the
-[WorldWide Telescope Data Files Reference](WorldWideTelescopeDataFilesReference.html)
+[WorldWide Telescope Data Files Reference](https://docs.worldwidetelescope.org/data-guide/)
 document.
 
 
@@ -102,7 +102,7 @@ files, go through the following steps:
 3. If known, enter an appropriate **RA** and **Dec** for the image. An
    approximation might work well enough as the image can be finely aligned and
    scaled within WorldWide Telescope (refer to the section
-   [Image Alignment within WorldWide Telescope](#ImageAlignmentwithinWorldWideTelescope)).
+   [Image Alignment within WorldWide Telescope](#image-alignment-within-worldwide-telescope)).
    Similarly for the **Height** of the image the default approximation of 6
    arc minutes (or 0.1 degree) can work well enough until the image is finely
    scaled.
