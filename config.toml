@@ -1,9 +1,9 @@
-base_url = "//docs.worldwidetelescope.org/data-guide/1/"
+base_url = "https://docs.worldwidetelescope.org/data-guide/1/"
 title = "WWT Data Guide"
 description = "Creating and loading data files that can be used by WWT."
 theme = "wwtguide"
 highlight_code = true
 
 [extra]
-github_base = "//github.com/WorldWideTelescope/worldwide-telescope-data-guide"
-google_analytics_id = "UA-107473046-3"
+github_base = "https://github.com/WorldWideTelescope/worldwide-telescope-data-guide"
+google_analytics_id = "G-D1J49XX0CV"
