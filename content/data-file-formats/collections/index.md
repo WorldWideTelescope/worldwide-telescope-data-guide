@@ -4,7 +4,7 @@ weight = 100
 +++
 
 A “collection” is a friendly name given to a WTML file. WTML is the
-user-editable file format designed specifically for AAS WorldWide Telescope.
+user-editable file format designed specifically for WorldWide Telescope.
 The **Explore** menu entry in the WWT interface is essentially a WTML browser.
 
 Fairly simple examples of WTML files are those that contain only one type of
@@ -19,12 +19,12 @@ samples section.
 # Structure of a Collection File
 
 A collection file is coded in XML, and is a hierarchical collection of
-**Folder** entries. The following example can be loaded into AAS WorldWide
+**Folder** entries. The following example can be loaded into WorldWide
 Telescope and will appear as the image below, even though all the folders are
 empty. The example is based on a community payload file, though a very similar
 structure would apply to a hierarchical selection of tours or studies.
 
-Note that the **Name** entries appear in the upper panel of AAS WorldWide
+Note that the **Name** entries appear in the upper panel of WorldWide
 Telescope, and that one unique thumbnail image for each **Folder** is helpful
 (though not required, a default thumbnail will be used if none is provided),
 and more thumbnail images will be helpful for each entry within each
@@ -138,7 +138,7 @@ high definition image of a gully on Mars):
 
 ## Thumbnail Images
 
-Thumbnail images are used frequently throughout AAS WorldWide Telescope to provide
+Thumbnail images are used frequently throughout WorldWide Telescope to provide
 an image to go along with a link, either in the top pane under Collections or
 Tours, or in the lower pane as part of a context search. Typically if you
 prepare your own data you may well create a thumbnail image for it — usually
@@ -332,9 +332,7 @@ This section describes the WTML file format used to contain survey data.
 Preparing a full sky survey involves a huge amount of data collection and
 preparation, and a comparatively simple WTML collection file to render it. The
 TOAST projection system for survey data is described in the
-[AAS WorldWide Telescope Projection Reference](https://worldwidetelescope.gitbook.io/projection-reference/),
-and the Sphere Toaster tool used to prepare data is described in the
-[AAS WorldWide Telescope Data Tools Guide](https://worldwidetelescope.gitbook.io/data-tools-guide/).
+[TOAST Projection section](@/spherical-projections/toast-projection/index.md).
 
 Similar to studies, the source image data is converted into an image pyramid
 for ease of rendering.
@@ -414,7 +412,7 @@ add a **Tour** entry.
 
 ### Default Tours
 
-The default tours used by the Windows version of AAS WorldWide Telescope are held
+The default tours used by the Windows version of WorldWide Telescope are held
 in the `tours.wtml` file, in the following locations:
 
 - Windows Vista: `C:\Users\<userid>\AppData\Local\Microsoft\WorldWideTelescope\data\`
@@ -425,7 +423,12 @@ Currently there is not a supported process to add your own tours to this file.
 
 # Communities
 
-Communities are the primary way in which AAS WorldWide Telescope users can share
+{% warning() %}
+This content is extremely outdated. The Communities functionality is not
+currently recommended for use.
+{% end %}
+
+Communities are the primary way in which WorldWide Telescope users can share
 data and tours with each other. Communities can be made by any user, but
 typically are individuals or organizations, such as planetariums, science
 centers, astronomy clubs, magazines, bloggers, schools, classes, and for class
@@ -437,8 +440,8 @@ You can set up your own community using your own servers and without any
 contact with Microsoft. However, you may prefer to have your community listed
 it on the WorldWide Telescope Community Directory (a subset of which is shown
 on the
-[WWT Support page](http://www.worldwidetelescope.org/Support/IssuesAndBugs).
-To do this, send an email to `wwt@aas.org`, requesting that your community be
+[WWT Support page](http://www.worldwidetelescope.org/Support/IssuesAndBugs)).
+To do this, send an email to `hello@worldwidetelescope.org`, requesting that your community be
 listed. To be considered for inclusion in the community directory, community
 sites must maintain standards in terms of quality, scalability, and content
 appropriateness. These standards include:
@@ -448,7 +451,7 @@ appropriateness. These standards include:
 * Community content must be well moderated, free of hate speech, and reflect
   currently accepted astronomical information/theory. The installation must
   have sufficient capacity for handling projected traffic.
-* The community must make use of integrated AAS WorldWide Telescope features
+* The community must make use of integrated WorldWide Telescope features
   such as tours, sky-aligned images, and so on. Not just simple HTML links
   to existing web content.
 
@@ -462,7 +465,7 @@ To set up a community go through the following steps:
 
 ### Step 1: Set the Mime Types
 
-To set up a community, you should first add the AAS WorldWide Telescope file
+To set up a community, you should first add the WorldWide Telescope file
 extensions to the MIME types on your server.
 
 | File type | File extension | MIME Type |
