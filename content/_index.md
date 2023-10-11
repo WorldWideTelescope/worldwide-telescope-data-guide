@@ -5,7 +5,7 @@ insert_anchor_links = "right"
 +++
 
 This guide documents the different data formats used by
-[AAS WorldWide Telescope][wwt] software, as well as some of the tools used to
+[WorldWide Telescope][wwt] software, as well as some of the tools used to
 generate or manipulate them.
 
 [wwt]: https://worldwidetelescope.org/home

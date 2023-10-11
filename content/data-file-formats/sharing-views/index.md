@@ -23,7 +23,7 @@ Client version.
 
 # Goto
 
-To capture a link from the AAS WorldWide Telescope, right click to bring up the
+To capture a link from WorldWide Telescope, right click to bring up the
 **Finder Scope**, select **Research** then **Copy Shortcut** from the menu.
 This will encode the current view into a URL.
 
@@ -72,10 +72,10 @@ simply by clicking on the link. Unlike [**Goto**](#goto), there is no
 automated way of creating the URL from within WorldWide Telescope.
 
 Of course the image, and optionally a thumbnail of it, must be web accessible
-for this to work. The image should also have a maximum size of 2048×2048
-pixels. If larger sized images are required, then WTML data files should be
-set up to tile the image correctly (refer to the
-[AAS WorldWide Telescope Data Tools Guide](https://worldwidetelescope.gitbook.io/data-tools-guide/)).
+for this to work. The image should also have a maximum size of 2048×2048 pixels.
+If larger sized images are required, then WTML data files should be set up to
+tile the image correctly (refer to [the toasty
+manual](https://toasty.readthedocs.io/)).
 
 The base of the URL is as follows:
 

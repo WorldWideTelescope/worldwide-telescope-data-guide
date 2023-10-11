@@ -159,7 +159,7 @@ the discontiguous Serpens constellation is treated as two separate objects.
 # Taxonomy
 
 The following table lists the taxonomy codes that can be used to classify
-images. The AAS WorldWide Telescope has adopted the image hierarchy taxonomy
+images. WorldWide Telescope has adopted the image hierarchy taxonomy
 proposed by the International Virtual Observatory Alliance and the
 [Virtual Astronomy Multimedia Project]'s (VAMP)
 [Astronomy Visualization Metadata] (AVM) standard. As an example, a tour of
