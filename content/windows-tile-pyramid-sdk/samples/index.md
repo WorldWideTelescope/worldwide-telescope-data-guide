@@ -46,9 +46,7 @@ visualized in WWT.
 # Prerequisites
 
 To run the samples ensure your system meets the hardware requirements and the
-necessary software is installed, described in the
-[Getting Started](https://www.gitbook.com/book/worldwidetelescope/worldwide-telescope-user-manual)
-section.
+necessary software is installed.
 
 ## To Install IIS 7.5 on Windows 7
 
@@ -125,9 +123,6 @@ permissions to the Community Directory to support the caching of payload Xml.
 The Community Service treats the following folder names as reserved: All
 Tours, Latest, Plates, DemPlates and Pyramid.
 
-For more information on Community files, refer to the
-[WorldWide Telescope Data Files Reference.](https://www.gitbook.com/book/worldwidetelescope/worldwide-telescope-data-files-reference)
-
 ## Including DEM data
 
 When using these samples with the sample data specified, or with any other
@@ -169,7 +164,7 @@ With the following settings:
   [http://visibleearth.nasa.gov/](http://visibleearth.nasa.gov/)
 - `Projection` — Projection can be either Toast or Mercator. For more
   information please refer to:
-  [WWT Projection Reference](https://www.gitbook.com/book/worldwidetelescope/worldwide-telescope-projection-reference)
+  [WWT Projection Reference](@/spherical-projections/_index.md)
 - `InputBoundary` — An optional parameter, defining the input boundary in
   decimal degrees.
 - `OutputDir` — Optional parameter, specifying the folder for output image
@@ -206,7 +201,7 @@ Where:
   bounding coordinates.
 - `Projection` — Projection can be either Toast or Mercator. For more
   information please refer to:
-  [WorldWide Telescope Projection Reference](https://www.gitbook.com/book/worldwidetelescope/worldwide-telescope-projection-reference)
+  [WorldWide Telescope Projection Reference](@/spherical-projections/_index.md)
 - `InputBoundary` — Optional parameter, defining the input boundary in decimal
   degrees.
 - `OutputDir` — Optional parameter, specifying the folder for output image
@@ -233,7 +228,7 @@ Where:
   longitude, Y is latitude and Z is the value. Data should be in a regular mesh.
 - `Projection` — Projection can be either Toast or Mercator. For more
   information please refer to:
-  [WorldWide Telescope Projection Reference](https://www.gitbook.com/book/worldwidetelescope/worldwide-telescope-projection-reference)
+  [WorldWide Telescope Projection Reference](@/spherical-projections/_index.md)
 - `OutputDir` — Optional parameter, specifying the folder for output image
   pyramids and newly created wtml files. If no input is supplied, image tiles
   are stored in the `%ProgramData%\Microsoft Research\WWT SDK\Output` folder.
@@ -263,7 +258,7 @@ Where:
   latitude and Z is the value.
 - `Projection` — Projection can be either Toast or Mercator. For more
   information please refer to:
-  [WorldWide Telescope Projection Reference](https://www.gitbook.com/book/worldwidetelescope/worldwide-telescope-projection-reference)
+  [WorldWide Telescope Projection Reference](@/spherical-projections/_index.md)
 - `ColorMap` — Path of a color map file used. A color map is used to assign
   colors to various points based on their z value and the colors available in
   the color map (from top to bottom in the case of a vertically oriented color
